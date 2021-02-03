@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="WeChatSansSuperscript-Medium.ttf">
+            <string>WeChat-Sans-SS-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AcceptLuckyMoneyCell" rowHeight="65" id="KGk-i7-Jjw" customClass="AcceptLuckyMoneyCell">
+            <rect key="frame" x="0.0" y="0.0" width="347" height="65"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="347" height="65"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PersonalChat" translatesAutoresizingMaskIntoConstraints="NO" id="rEe-Mz-sD1">
+                        <rect key="frame" x="14" y="14" width="38" height="38"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="38" id="19i-xd-RA7"/>
+                            <constraint firstAttribute="height" constant="38" id="r3F-mL-fnc"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="3"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="xfkdf;dfdfk" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HH4-G5-iCZ">
+                        <rect key="frame" x="66" y="15" width="80" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="17" id="uWH-2J-afQ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IhA-sd-8Np">
+                        <rect key="frame" x="66" y="37" width="31" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="abI-1q-xyv"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rVM-UJ-AHE">
+                        <rect key="frame" x="66" y="64.5" width="281" height="0.5"/>
+                        <color key="backgroundColor" red="0.94509810209274292" green="0.94509810209274292" blue="0.94509810209274292" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="h64-Cg-kCn"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3.0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DQl-k3-0hH">
+                        <rect key="frame" x="311.5" y="15" width="21.5" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="sVH-H5-Tnk"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="WeChat-Sans-SS-Medium" family="WeChat Sans SS" pointSize="15"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sOd-cD-LFw">
+                        <rect key="frame" x="268" y="39" width="65" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <state key="normal" title="手气最佳" image="LuckyMoney_WinnerIcon">
+                            <color key="titleColor" red="0.97456151247024536" green="0.89623147249221802" blue="0.72153812646865845" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </state>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" red="0.94891661410000006" green="0.9490789771" blue="0.94890636210000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="sOd-cD-LFw" secondAttribute="trailing" constant="14" id="4SE-mY-rEu"/>
+                    <constraint firstItem="IhA-sd-8Np" firstAttribute="leading" secondItem="HH4-G5-iCZ" secondAttribute="leading" id="52T-bX-LgT"/>
+                    <constraint firstItem="HH4-G5-iCZ" firstAttribute="leading" secondItem="rEe-Mz-sD1" secondAttribute="trailing" constant="14" id="5dQ-hZ-29Y"/>
+                    <constraint firstItem="HH4-G5-iCZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="85c-ka-B7z"/>
+                    <constraint firstItem="DQl-k3-0hH" firstAttribute="top" secondItem="HH4-G5-iCZ" secondAttribute="top" id="CJK-Yk-Uxw"/>
+                    <constraint firstItem="rVM-UJ-AHE" firstAttribute="leading" secondItem="IhA-sd-8Np" secondAttribute="leading" id="FvR-fC-i8f"/>
+                    <constraint firstItem="rEe-Mz-sD1" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="14" id="Qxe-Qn-BWs"/>
+                    <constraint firstAttribute="bottom" secondItem="rVM-UJ-AHE" secondAttribute="bottom" id="XzQ-AI-741"/>
+                    <constraint firstItem="rEe-Mz-sD1" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="14" id="Y0f-4D-6A1"/>
+                    <constraint firstAttribute="trailing" secondItem="DQl-k3-0hH" secondAttribute="trailing" constant="14" id="YmH-7q-0OV"/>
+                    <constraint firstItem="IhA-sd-8Np" firstAttribute="bottom" secondItem="rEe-Mz-sD1" secondAttribute="bottom" id="gEH-rg-lLW"/>
+                    <constraint firstItem="sOd-cD-LFw" firstAttribute="top" secondItem="DQl-k3-0hH" secondAttribute="bottom" constant="9" id="o0S-VR-FCa"/>
+                    <constraint firstAttribute="trailing" secondItem="rVM-UJ-AHE" secondAttribute="trailing" id="wFX-9U-wfb"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="headerIcon" destination="rEe-Mz-sD1" id="xeR-Mh-mo6"/>
+                <outlet property="moneyLabel" destination="DQl-k3-0hH" id="fzv-wo-gPn"/>
+                <outlet property="nameLabel" destination="HH4-G5-iCZ" id="ii6-x0-Rnm"/>
+                <outlet property="timeLabel" destination="IhA-sd-8Np" id="51B-bo-Y59"/>
+                <outlet property="winderView" destination="sOd-cD-LFw" id="11u-Ki-yTN"/>
+            </connections>
+            <point key="canvasLocation" x="-7.9710144927536239" y="100.11160714285714"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="LuckyMoney_WinnerIcon" width="15" height="15"/>
+        <image name="PersonalChat" width="68" height="68"/>
+    </resources>
+</document>

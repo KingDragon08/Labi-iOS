@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mFr-Uk-5ZS">
+                                <rect key="frame" x="0.0" y="512" width="375" height="300"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="2OD-fe-Q01"/>
+                                </constraints>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="labi_login_icon" translatesAutoresizingMaskIntoConstraints="NO" id="lzJ-r0-JiS">
+                                <rect key="frame" x="30" y="248.66666666666663" width="315" height="315"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="lzJ-r0-JiS" secondAttribute="height" multiplier="1:1" id="vAA-vm-k0u"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="lzJ-r0-JiS" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="3i4-6i-4Mw"/>
+                            <constraint firstAttribute="bottom" secondItem="mFr-Uk-5ZS" secondAttribute="bottom" id="9bX-2f-OlN"/>
+                            <constraint firstItem="mFr-Uk-5ZS" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="9nn-XL-ASt"/>
+                            <constraint firstItem="lzJ-r0-JiS" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="CeV-6R-Eob"/>
+                            <constraint firstAttribute="trailing" secondItem="mFr-Uk-5ZS" secondAttribute="trailing" id="JwH-pf-gFz"/>
+                            <constraint firstItem="lzJ-r0-JiS" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="30" id="oGN-jj-xod"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.6305418719212"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="labi_login_icon" width="350.5" height="323.5"/>
+    </resources>
+</document>

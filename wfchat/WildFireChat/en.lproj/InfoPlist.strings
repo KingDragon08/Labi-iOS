@@ -1,0 +1,101 @@
+/* 
+  InfoPlist.strings
+  WildFireChat
+
+  Created by Heavyrain.lee on 2019/9/16.
+  Copyright © 2019 WildFireChat. All rights reserved.
+*/
+CFBundleName="蜡笔";
+CFBundleDisplayName="蜡笔";
+Message="Message";
+Contact="Contact";
+Me="Me";
+Discover="Disconver";
+Settings="Settings";
+Chatroom="Chatroom";
+DevDocs="Develope Book";
+AccountSafety="Account and Safety";
+MessageNotification="Message notification";
+ChangePassword="Change password";
+PrivacySettings="Privacy settings";
+CurrentVersion="Current version";
+HelpFeedback="Help feedback";
+AboutWFChat="About 蜡笔";
+UserAgreement="User agreement";
+PrivacyPolicy="Privacy policy";
+Complain="Complain";
+Blacklist="Black list";
+Logout="Logout";
+Moments="Moments";
+Wallet="Wallet";
+Login="Login";
+ChangeLaunage="ChangeLaunage";
+Account="Account";
+Password="password";
+Register="Register";
+ConfirmPassword="Confirm password";
+WalletBalance="The wallet balance";
+CreateWallet="Create wallet";
+Recharge="Recharge";
+AccountPlaceholder="Please enter your account number";
+PasswordPlaceholder="Please enter your password";
+ConfirmPasswordPlaceholder="Please confirm the password again";
+Cancel="Cancel";
+ComingSoon="Coming soon";
+GentingClub="Genting Club";
+Agree="Agree";
+DissAgree="DissAgree";
+Language="Language";
+QuietMode="Quiet Mode";
+LogOutWarning="No historical data will be deleted after exiting. You can still use this account when you log in next time";
+AgainPassword="Confirm password";
+RegisterCode="Invitation code";
+RegisterCodePlaceHolder="Please enter the invitation code";
+Chongzhikefu="Recharge customer service";
+Tixiankefu="Cash withdrawal customer service";
+Tongyongzhikefu="General customer service";
+InvitationCode="InvitationCode";
+RedBagList="RedBagList";
+OriginalPassword="OriginalPassword";
+NewPassword="NewPassword";
+
+
+"ExcnangeToMoney"="Conversion Integral";
+"Recharge"="Recharge";
+"Withdrawal"="Withdrawal";
+"Inputintegral"="Input integral";
+"InputMoney"="Input Money";
+
+"Card Num" = "Card";
+"SelectCard" = "SelectCard";
+"SelectImage" = "Select payment screenshot";
+"Submit"="Submit";
+"MoneyRecords"="Integral record";
+"nameHint"="The user name should be at least 4 digits and English letters";
+"passHint"="The password should be at least 6 digits and English letters";
+ICodeError ="Invitation code error";
+Refresh = "Refresh";
+BindCard="Binding bank card";
+
+UserName="Name of card owner";
+BankName="BankName";
+ReBindCard="Rebinding bank card";
+
+created_time="Game start time";
+groupId="Room ID";
+bankerName="Zhuang name";
+bonusId="bonusId";
+banker="Zhuang ID;";
+status="match status;";
+bankerBonus="bankerBonus";
+
+gameId="game ID";
+bet="bet";
+bonus="bonus";
+type="wager type";
+userId="userId";
+win="win / lose";
+username="username";
+tb="primary contractor";
+online="Recharge Online";
+zhuangwinlose="Zhuang wins or loses";

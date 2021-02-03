@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SecertViewController">
+            <connections>
+                <outlet property="bar" destination="4hg-42-sUE" id="d2Z-Ok-6zD"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4hg-42-sUE">
+                    <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="用户隐私协议" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EzN-ls-NR6">
+                            <rect key="frame" x="161" y="14" width="92" height="16"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="16" id="WAj-GF-ltC"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pc0-1Q-ZST">
+                            <rect key="frame" x="10" y="7.5" width="30" height="29"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="29" id="ehs-3z-teR"/>
+                                <constraint firstAttribute="width" constant="30" id="fhq-Vz-uew"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <state key="normal" title="关闭">
+                                <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </state>
+                            <connections>
+                                <action selector="close:" destination="-1" eventType="touchUpInside" id="BcX-kr-O6k"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstItem="pc0-1Q-ZST" firstAttribute="centerY" secondItem="4hg-42-sUE" secondAttribute="centerY" id="2jp-kS-yID"/>
+                        <constraint firstAttribute="height" constant="44" id="JKo-VY-Xos"/>
+                        <constraint firstItem="pc0-1Q-ZST" firstAttribute="leading" secondItem="4hg-42-sUE" secondAttribute="leading" constant="10" id="Pqm-rU-cea"/>
+                        <constraint firstItem="EzN-ls-NR6" firstAttribute="centerX" secondItem="4hg-42-sUE" secondAttribute="centerX" id="yhX-3z-rUM"/>
+                        <constraint firstItem="EzN-ls-NR6" firstAttribute="centerY" secondItem="4hg-42-sUE" secondAttribute="centerY" id="yzd-Zd-Zbl"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="4hg-42-sUE" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="3ml-YS-hhO"/>
+                <constraint firstItem="4hg-42-sUE" firstAttribute="top" relation="greaterThanOrEqual" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="6vk-O9-FtO"/>
+                <constraint firstItem="4hg-42-sUE" firstAttribute="top" secondItem="6gA-Ug-gxd" secondAttribute="top" priority="750" id="g1s-ew-DEr"/>
+                <constraint firstAttribute="trailing" secondItem="4hg-42-sUE" secondAttribute="trailing" id="vNs-K3-xda"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="6gA-Ug-gxd"/>
+            <point key="canvasLocation" x="138.40000000000001" y="95.802098950524751"/>
+        </view>
+    </objects>
+</document>

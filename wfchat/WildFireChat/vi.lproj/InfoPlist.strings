@@ -1,0 +1,109 @@
+/*
+  InfoPlist.strings
+  WildFireChat
+
+  Created by Heavyrain.lee on 2019/9/16.
+  Copyright © 2019 WildFireChat. All rights reserved.
+*/
+CFBundleName="蜡笔";
+CFBundleDisplayName="蜡笔";
+Message="Mesej";
+Contact="Kenalan";
+Me="Saya";
+Discover="Tutup";
+Settings="Tetapan";
+Chatroom="Chatroom";
+DevDocs="Buku Pembangun";
+AccountSafety="Akaun dan Keselamatan";
+MessageNotification="Maklumat Baru";
+ChangePassword="Ubah Katalaluan";
+PrivacySettings="Tetapan Privasi";
+CurrentVersion="Versi semasa versi";
+HelpFeedback="Bantu dan jawab.";
+AboutWFChat="Tentang 蜡笔";
+UserAgreement="Perjanjian pengguna";
+PrivacyPolicy="Polisi peribadi";
+Complain="Mengaduh";
+Blacklist="Senarai hitam";
+Logout="Log Keluar";
+Moments="Momen";
+Wallet="Dompet";
+Login="Bumi";
+ChangeLaunage="Pilih bahasa";
+Account="Nombor akaun";
+Password="Kata laluan";
+Register="Tulis";
+ConfirmPassword="Sahkan kata laluan";
+WalletBalance="Imbangan dompet";
+CreateWallet="Cipta dompet";
+Recharge="Isi semula";
+AccountPlaceholder="Sila masukkan nombor akaun";
+PasswordPlaceholder="Masukkan kata laluan";
+ConfirmPasswordPlaceholder="Sila sahkan kata laluan anda";
+Cancel="Batalkan";
+ComingSoon="Hampir sampai";
+GentingClub="trang";
+Language="bahasa";
+QuietMode="mod tenang";
+
+GamePoints="Titik Main";
+Balance="Nombor sampul merah";
+LoginID="ID Login";
+Introducer="Gaya Perkenalan";
+PhoneNum="Nombor telefon";
+Email="Alamat mel";
+LogOutWarning="Tiada fail sejarah dipadam selepas keluar. Anda masih boleh guna akaun ini bila anda log masuk lain kali";
+AgainPassword="Sahkan kata laluan";
+RegisterCode="Kod jemputan";
+RegisterCodePlaceHolder="Masukkan kod undangan";
+Chongzhikefu="Layani pelanggan";
+Tixiankefu="Perkhidmatan penarikan wang tunai";
+Tongyongzhikefu="Perkhidmatan pelanggan";
+InvitationCode="Kod jemputan";
+
+Ok="Kedudukan";
+RedBagList="Senarai sampul merah";
+OriginalPassword="Katalaluan Asal";
+NewPassword="Katalaluan Baru";
+UserName="Nama sebenar";
+BankName="nama tinkerg";
+
+"ExcnangeToMoney"="Tajuk:";
+"Recharge"="Memuatkan";
+"Withdrawal"="Tarik";
+"Inputintegral"="Input";
+"InputMoney"="Nombor Import";
+
+"Card Num" = "nombor kad bank";
+"SelectCard" = "Pilih Tag";
+"SelectImage" = "Pilih Skrin Akaun";
+"Submit"="Hantar";
+"MoneyRecords"="Item";
+"nameHint"="Nama pengguna mesti mengandungi sekurang-kurangnya empat huruf dan huruf Inggeris";
+"passHint"="Katalaluan mesti mempunyai sekurang-kurangnya enam nombor dan huruf Inggeris";
+ICodeError ="Kod jemputan gagal";
+Refresh = "Kemaskini";
+BindCard="Tag Pencetak";
+ReBindCard="Tab bank siri";
+
+
+created_time="Sekarang mulakan permainan";
+groupId="Bilik Identifikasi";
+bankerName="Nama Halaman";
+bonusId="ID Sampul Merah";
+banker="Saya ada ID";
+status="Match";
+bankerBonus="Penjual mengambil beg itu";
+
+gameId="ID Permainan";
+bet="Bertaruhan";
+bonus="Sebuah poket";
+type="model kandang";
+userId="Manusia Pengguna";
+win="Menang atau kalah";
+username="Nama Pengguna";
+tb="Kontraktor utama";
+online="Muat turun Rangkaian";
+zhuangwinlose="Menang atau kalah";
+Agree="Ya, ya!";
+DissAgree="Tiada duit";

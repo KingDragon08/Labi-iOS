@@ -1,0 +1,107 @@
+/* 
+  InfoPlist.strings
+  WildFireChat
+
+  Created by Heavyrain.lee on 2019/9/16.
+  Copyright © 2019 WildFireChat. All rights reserved.
+*/
+CFBundleName="蜡笔";
+CFBundleDisplayName="蜡笔";
+Message="消息";
+Contact="联系人";
+Discover="发现";
+Me="个人档案";
+Settings="设置";
+Chatroom="聊天室";
+DevDocs="开发手册";
+AccountSafety="钱包";
+MessageNotification="新消息通知";
+ChangePassword="修改密码";
+PrivacySettings="隐私设置";
+CurrentVersion="当前版本";
+HelpFeedback="帮助与反馈";
+AboutWFChat="关于蜡笔";
+UserAgreement="用户协议";
+PrivacyPolicy="隐私政策";
+Complain="举报";
+Blacklist="黑名单";
+Logout="登出";
+Moments="朋友圈";
+Wallet="我的账户";
+Login="登录";
+ChangeLaunage="语言选择";
+Account="账户";
+Password="密码";
+Register="注册";
+ConfirmPassword="确认密码";
+WalletBalance="钱包余额";
+CreateWallet="创建钱包";
+Recharge="充值";
+AccountPlaceholder="请输入账号";
+PasswordPlaceholder="请输入密码";
+ConfirmPasswordPlaceholder="请s";
+Cancel="取消";
+ComingSoon="敬请期待";
+GentingClub="主页";
+Agree="同意";
+DissAgree="不同意";
+Language="语言";
+QuietMode="静音模式";
+
+GamePoints="游戏积分";
+Balance="红包余额";
+LoginID="登录ID";
+Introducer="介绍人";
+PhoneNum="电话号码";
+Email="电邮地址";
+LogOutWarning="退出后不会删除任何历史数据，下次登录依然可以使用本账号";
+AgainPassword="确认密码";
+RegisterCode="邀请码";
+RegisterCodePlaceHolder="请输入邀请码";
+Chongzhikefu="充值客服";
+Tixiankefu="提现客服";
+Tongyongzhikefu="通用客服";
+InvitationCode="邀请码";
+RedBagList="红包记录";
+Ok="确定";
+OriginalPassword="原密码";
+NewPassword="新密码";
+zhuangwinlose="庄输赢";
+
+"ExcnangeToMoney"="转积分";
+"Recharge"="充值";
+"Withdrawal"="提现";
+"Inputintegral"="输入积分";
+"InputMoney"="输入金额";
+
+"Card Num" = "卡号";
+"SelectCard" = "选择一张卡";
+"SelectImage" = "选择支付截图";
+"Submit"="提交";
+"MoneyRecords"="积分记录";
+"nameHint"="用户名至少是4位的数字和英文字母";
+"passHint"="密码至少是6位的数字和英文字母";
+ICodeError ="邀请码有误";
+Refresh = "刷新";
+BindCard="绑定银行卡";
+UserName="卡主姓名";
+BankName="银行名称";
+ReBindCard="重新绑定银行卡";
+
+created_time="游戏开始时间";
+groupId="房间ID";
+bankerName="庄名称";
+bonusId="红包ID";
+banker="庄ID";
+status="对局状态";
+bankerBonus="庄抢包";
+
+gameId="游戏id";
+bet="下注";
+bonus="抢包";
+type="下注类型";
+userId="userId";
+win="输赢";
+username="用户名";
+tb="头包";
+online="在线充值";
