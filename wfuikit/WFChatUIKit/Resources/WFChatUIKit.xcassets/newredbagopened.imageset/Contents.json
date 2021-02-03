@@ -5,8 +5,8 @@
       "scale" : "1x"
     },
     {
-      "filename" : "lALPDgtYvhET5RzNA1PNAp8_671_851@2x.png",
       "idiom" : "universal",
+      "filename" : "蜡笔红包 3副本.png",
       "scale" : "2x"
     },
     {
@@ -15,7 +15,7 @@
     }
   ],
   "info" : {
-    "author" : "xcode",
-    "version" : 1
+    "version" : 1,
+    "author" : "xcode"
   }
 }

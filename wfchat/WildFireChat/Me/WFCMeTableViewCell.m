@@ -191,6 +191,8 @@ static CGFloat kLeftSpace = 20;
         UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(changeDispalyName)];
         [self.nickName addGestureRecognizer:tap];
         [_bgView addSubview:self.nickName];
+        [_bgView addSubview:self.fresh];
+        [_bgView addSubview:self.zhuanyue];
     }
     return _bgView;
 }
@@ -234,7 +236,7 @@ static CGFloat kLeftSpace = 20;
     if (!_zhuanyue) {
         _zhuanyue = [UIButton new];
         [_zhuanyue setTitle:LocalizedString(@"ExcnangeToMoney") forState:UIControlStateNormal];
-        _zhuanyue.frame = CGRectMake(0, 0, 100, 44);
+        _zhuanyue.frame = CGRectMake(_bgView.frame.size.width - 110, 10, 100, 44);
         _zhuanyue.titleLabel.font = [UIFont systemFontOfSize:15];
         [_zhuanyue addTarget:self action:@selector(zhuanyueClick) forControlEvents:UIControlEventTouchUpInside];
     }
@@ -268,9 +270,9 @@ static CGFloat kLeftSpace = 20;
     if (!_fresh) {
         _fresh = [UIButton new];
         [_fresh setTitle:LocalizedString(@"Refresh") forState:UIControlStateNormal];
-        _fresh.frame = CGRectMake(0, 0, 44, 44);
+        _fresh.frame = CGRectMake(20, 10, 44, 44);
         _fresh.titleLabel.font = [UIFont systemFontOfSize:15];
-        [_fresh addTarget:self action:@selector(zhuanyueClick) forControlEvents:UIControlEventTouchUpInside];
+        [_fresh addTarget:self action:@selector(refreshClick) forControlEvents:UIControlEventTouchUpInside];
     }
     return _fresh;
 }
